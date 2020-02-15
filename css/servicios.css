@@ -1,0 +1,31 @@
+body {
+    padding-top: 56px;
+  }
+  
+  .bg-image-full {
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+  
+  /* Empresa */
+  
+  .navbar-brand {
+    font-family: "TulpenOne-Regular";
+    font-size: 35px;
+    letter-spacing: 5px;
+    font-weight: 900;
+  }
+  
+  /*  Links */
+  /* li a{font-family: "TulpenOne-Regular";font-size: 30px;} */
+  
+  /* h5 */
+  h5 {
+    font-family: "TulpenOne-Regular";
+    font-size: 40px;
+    font-weight: bold;
+  }
+  /* .segunda{ width: 100px;} */
