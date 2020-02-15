@@ -14,7 +14,7 @@
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="css/shop-item.css" rel="stylesheet">
+  <link href="css/servicios.css" rel="stylesheet">
 
 </head>
 
@@ -80,28 +80,28 @@
       <!-- /.col-lg-3 -->
 
       <div class="col-lg-9 repe">
-<!-- Carrousel -->
 
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-        <img src="..." class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-  </div>
-</div>
 
 
 
 
 <div class="col-lg-9 repe mx-auto"  id="" >
 
-        
+        <!-- Carrousel -->
+<!-- 
+      <div id="carouselExampleSlidesOnly" class="carousel slide mx-auto" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="./img/Seguridad.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./img/server.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./img/img-1.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+</div> -->
 
         <div class="card mt-4">
           <img class="card-img-top img-fluid" src="http://placehold.it/900x400" alt="">
