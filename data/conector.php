@@ -10,8 +10,8 @@
 	}
 
 ?>
-<?php
-// Obtenir una llista d'equips
+
+<!-- // Obtenir una llista d'equips
 	function getlistaservicios(){
 		$connection = connectionDB();
 		if ($connection->connect_error) {
@@ -26,9 +26,11 @@
 			while($fila = $resultado->fetch_assoc()) {
 				$servicio = array(
 					 "id" => $fila["id"],
+					 "img" => $fila["img"],
 					 "nombre" => $fila["nombre"],
+					 "categoria" => $fila["categoria"],
 					 "descripcion" => $fila["descripcion"],
-					 "precio" => $fila["web"],
+					 "precio" => $fila["precio"],
 					 
 				);
 				array_push($dades, $servicio);
