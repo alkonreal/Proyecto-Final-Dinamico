@@ -14,7 +14,7 @@
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="css/shop-item.css" rel="stylesheet">
+  <link href="css/servicios.css" rel="stylesheet">
 
 </head>
 
@@ -80,37 +80,40 @@
       <!-- /.col-lg-3 -->
 
       <div class="col-lg-9 repe">
-<!-- Carrousel -->
 
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+
+
+
+
+<div class="col-lg-9 repe mx-auto"  id="" >
+
+        <!-- Carrousel -->
+<!-- 
+      <div id="carouselExampleSlidesOnly" class="carousel slide mx-auto" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-        <img src="..." class="d-block w-100" alt="...">
+        <img src="./img/Seguridad.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
+      <img src="./img/server.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
+      <img src="./img/img-1.jpg" class="d-block w-100" alt="...">
     </div>
   </div>
-</div>
-
-
-
-
-
-        
+</div> -->
 
         <div class="card mt-4">
           <img class="card-img-top img-fluid" src="http://placehold.it/900x400" alt="">
           <div class="card-body">
             <h3 class="card-title">Product Name</h3>
-            <h4>$24.99</h4>
+            <h4 >$24.99</h4>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente dicta fugit fugiat hic aliquam itaque facere, soluta. Totam id dolores, sint aperiam sequi pariatur praesentium animi perspiciatis molestias iure, ducimus!</p>
             <span class="text-warning">&#9733; &#9733; &#9733; &#9733; &#9734;</span>
             4.0 stars
           </div>
+        </div>
+        
         </div>
         <!-- /.card -->
 
@@ -170,9 +173,11 @@ $sql="SELECT * from servicio";
     <div class="col-lg-9 repe mx-auto">
 
     <div class="card mt-4 mx-auto">
-          <img class="card-img-top img-fluid " src="http://placehold.it/900x400" alt="">
+          <!-- <img class="card-img-top img-fluid " src="http://placehold.it/900x400" alt=""> -->
+          <img class="card-img-top img-fluid " src="./img/<?php echo $mostrar['img'] ?>" alt="">
           <div  class="card-body ">
             <h3 class="card-title"><?php echo $mostrar['nombre'] ?></h3>
+            <p class="card-text"><?php echo $mostrar['categoria'] ?></p>
           
             <p class="card-text"><?php echo $mostrar['descripcion'] ?></p>
             <h5>  <?php echo $mostrar['precio'] ?>€ </h5>
