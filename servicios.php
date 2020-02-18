@@ -174,7 +174,7 @@ $sql="SELECT * from servicio";
 
     <div class="card mt-4 mx-auto">
           <!-- <img class="card-img-top img-fluid " src="http://placehold.it/900x400" alt=""> -->
-          <img class="card-img-top img-fluid " src="" alt=""><?php echo $mostrar['img'] ?>
+          <img class="card-img-top img-fluid " src="./img/<?php echo $mostrar['img'] ?>" alt="">
           <div  class="card-body ">
             <h3 class="card-title"><?php echo $mostrar['nombre'] ?></h3>
             <p class="card-text"><?php echo $mostrar['categoria'] ?></p>
