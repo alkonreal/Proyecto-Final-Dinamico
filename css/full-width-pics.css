@@ -7,7 +7,7 @@
 body {
   padding-top: 56px;
 }
-.logo{width: 200px;}
+
 
 
 /* Footer */
@@ -216,8 +216,8 @@ i {
   /* url(../fonts/opensans.woff) format('woff2');*/
 }
 
-.logo {}
-
+.logo{width: 200px;}
+header {height: 250px; margin: 0px;}
 .bg-image-full {
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -225,7 +225,14 @@ i {
   background-size: cover;
   -o-background-size: cover;
 }
+.logofrase{width: 300px;}
+.frase { font-family:'acuminBolderpro' ;font-size: 30pt;}
+.cajafrase{ text-align: center;margin: 0px;
 
+
+
+}
+.technicum2{margin-bottom: 40px;;}
 /* Empresa */
 
 .navbar-brand {
@@ -295,14 +302,17 @@ h5 {
 
 
 
-#carouselExampleIndicators {
+/* #carouselExampleIndicators {
   margin-bottom: 100px;
   ;
-}
+} */
 
 
 
 /* Footer */
+
+.mapa{width: 300px;height: 300px;;}
+
 
 
 .container2 {
@@ -310,7 +320,7 @@ h5 {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 90px;
+  height: 50px;
 
 }
 

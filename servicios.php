@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Shop Item - Start Bootstrap Template</title>
+  <title>Technicum</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -23,7 +23,7 @@
   <!-- Navigation -->
   <nav class=" navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Nombre De nuestra</a>
+    <a class="navbar-brand " href="#"> <img src="./Img/LogoClaro.svg"  class="logo" alt=""> </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -51,7 +51,7 @@
   
     <!-- Header - set the background image for the header in the line below -->
     <header class="py-5 bg-image-full wrapper" style="background-image: url(../Img/server.jpg); background-size: cover; background-repeat: no-repeat; background-position: center;    ">
-      <img class="img-fluid d-block mx-auto" src="http://placehold.it/200x200&text=Logo" alt="">
+      <img class="img-fluid d-block mx-auto logooscuro" src="./img/IOscuro.svg" alt="">
     </header>
 
   <!-- Page Content -->
@@ -85,73 +85,8 @@
 
 
 
-<div class="col-lg-9 repe mx-auto"  id="" >
 
-        <!-- Carrousel -->
-<!-- 
-      <div id="carouselExampleSlidesOnly" class="carousel slide mx-auto" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-        <img src="./img/Seguridad.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="./img/server.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="./img/img-1.jpg" class="d-block w-100" alt="...">
-    </div>
-  </div>
-</div> -->
-
-        <div class="card mt-4">
-          <img class="card-img-top img-fluid" src="http://placehold.it/900x400" alt="">
-          <div class="card-body">
-            <h3 class="card-title">Product Name</h3>
-            <h4 >$24.99</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente dicta fugit fugiat hic aliquam itaque facere, soluta. Totam id dolores, sint aperiam sequi pariatur praesentium animi perspiciatis molestias iure, ducimus!</p>
-            <span class="text-warning">&#9733; &#9733; &#9733; &#9733; &#9734;</span>
-            4.0 stars
-          </div>
-        </div>
-        
-        </div>
-        <!-- /.card -->
-
-        <!-- <div class="card card-outline-secondary my-4">
-          <div class="card-header">
-            Product Reviews
-          </div>
-          <div class="card-body">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis et enim aperiam inventore, similique necessitatibus neque non! Doloribus, modi sapiente laboriosam aperiam fugiat laborum. Sequi mollitia, necessitatibus quae sint natus.</p>
-            <small class="text-muted">Posted by Anonymous on 3/1/17</small>
-            <hr>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis et enim aperiam inventore, similique necessitatibus neque non! Doloribus, modi sapiente laboriosam aperiam fugiat laborum. Sequi mollitia, necessitatibus quae sint natus.</p>
-            <small class="text-muted">Posted by Anonymous on 3/1/17</small>
-            <hr>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis et enim aperiam inventore, similique necessitatibus neque non! Doloribus, modi sapiente laboriosam aperiam fugiat laborum. Sequi mollitia, necessitatibus quae sint natus.</p>
-            <small class="text-muted">Posted by Anonymous on 3/1/17</small>
-            <hr>
-            <a href="#" class="btn btn-success">Leave a Review</a>
-          </div>
-        </div> -->
-        <!-- /.card -->
-
-      </div>
-      <!-- /.col-lg-9 -->
-
-    </div>
-
-  </div>
-  <!-- /.container -->
-
- 
-  
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <?php 
+      <?php 
 //  Esto hara que se haga la conexion con la base de datos
 // primero localhost, luego root, dejamos vacio porque no hay contraseña
 // y por ultimo  EL NOMBRE DE LA BASE DE DATOS DE MYSQL
@@ -172,9 +107,9 @@ $sql="SELECT * from servicio";
     
     <div class="col-lg-9 repe mx-auto">
 
-    <div class="card mt-4 mx-auto">
+    <div class="card mt-4 mx-auto imagenservicios">
           <!-- <img class="card-img-top img-fluid " src="http://placehold.it/900x400" alt=""> -->
-          <img class="card-img-top img-fluid " src="./img/<?php echo $mostrar['img'] ?>" alt="">
+          <img class="card-img-top img-fluid imagenservicios" src="./img/<?php echo $mostrar['img'] ?>" alt="">
           <div  class="card-body ">
             <h3 class="card-title"><?php echo $mostrar['nombre'] ?></h3>
             <p class="card-text"><?php echo $mostrar['categoria'] ?></p>
@@ -195,6 +130,41 @@ $sql="SELECT * from servicio";
         }
 
         ?>
+
+      
+
+<div class="col-lg-9 repe mx-auto"  id="" >
+
+
+
+        <!-- <div class="card mt-4">
+          <img class="card-img-top img-fluid" src="http://placehold.it/900x400" alt="">
+          <div class="card-body">
+            <h3 class="card-title">Product Name</h3>
+            <h4 >$24.99</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente dicta fugit fugiat hic aliquam itaque facere, soluta. Totam id dolores, sint aperiam sequi pariatur praesentium animi perspiciatis molestias iure, ducimus!</p>
+            <span class="text-warning">&#9733; &#9733; &#9733; &#9733; &#9734;</span>
+            4.0 stars
+          </div> -->
+        </div>
+        
+        </div>
+        
+      </div>
+      <!-- /.col-lg-9 -->
+    </div>
+
+  </div>
+  <!-- /.container -->
+
+ 
+  
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
 
 <!-- <script>
 Mostra les series (fa servir només javascript)

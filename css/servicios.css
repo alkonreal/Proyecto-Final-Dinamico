@@ -1,7 +1,7 @@
 body {
     padding-top: 56px;
   }
-  
+  .logo{width: 200px;}
   .bg-image-full {
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
@@ -10,6 +10,8 @@ body {
     -o-background-size: cover;
   }
   
+  .imagenservicios{width: 700px;}
+.logooscuro{width: 200px;}
   /* Empresa */
   
   /* .navbar-brand {
