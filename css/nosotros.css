@@ -6,14 +6,24 @@
 body {
   padding-top: 56px;
 }
-.logo{width: 200px;}
+
+.logo {
+  width: 200px;
+}
+
 /* .imagenservicios{
 
   width: 400px;;
 } */
 
-.logoprincipal{width: 900px;}
-.imagen{width: 300px;height: 300px;}
+.logoprincipal {
+  width: 900px;
+}
+
+.imagen {
+  width: 300px;
+  height: 300px;
+}
 
 
 /* Footer */
@@ -196,158 +206,13 @@ i {
   justify-content: center;
   align-items: center;
   height: 50px;
-  
+
 
 }
 
 .tarjetas {
   margin-left: 20px;
-  ;display: flex;flex-direction: column;align-items: center;
-}
-.tarjetas p{color: white;}
-.oscuro {
-  background-color: #343a40;
-  height: 100px;
-  width: 100%;
-}
-
-.full {
-  border: black 1px solid;
-}
-
-.payments li {
-  margin-left: 10px;
-}
-.payments li i{color: white;}
-div.footer-bottom div.container2 p {
-  margin: 0;
-}
-
-.alarcon {
-  display: flex;flex-direction: row;justify-content: space-around;width: 100%;
-}
-
-.alarcon2 {
-  display: flex; flex-direction: row;justify-content: space-around;height: 100px;align-items: center;
-}
-
-.bandera {
-  width: 200px;
-}
-
-
-/* #video-carousel-example{margin-top: 150px;;} */
-/* Movil */
-@media only screen and (min-device-width:320px)
-/* Horientacion Vertical */
-
-and (orientation: portrait)
-/* FIN */
-{
-
-<<<<<<< HEAD
-  .imagen{width: 80vw}
-=======
-<<<<<<< HEAD
-.imagen{width: 80vw}
-=======
-  .imagen{width: 80vw}
->>>>>>> 186b5938af292c4566846b16d3ec996802a7a529
->>>>>>> b1c6be2fb9cdd1e31db5ca5b1648f8b76c9a0ab8
-.card{display: flex;align-items: center;}
-
-
-
-
-/* Footer */
-
-<<<<<<< HEAD
-.alarcon2 {
-  display: flex;
-  flex-direction: column;
-  background-color: #343a40;
-  height: 50vh;
-  margin-top: 50px;
   ;
-}
-
-.copy {
-  text-align: center;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.alarcon {
-  display: flex;
-  flex-direction: column;
-}
-
-.bandera {
-  width: 100%;
-=======
-<<<<<<< HEAD
-
-
-.carousel-inner img {
-  width: 100%;
-  max-height: 460px;
-  border-radius: 10px;
-  ;
-}
-
-.carousel-inner {
-  height: 100%;
-  width: 100%;
-  padding: 5%;
-}
-
-.manos {
-  background-image: url(/Img/handshake-3962172_1920.jpg);
-  background-position: center;
-  height: 150px;
-  background-size: cover;
-  background-repeat: no-repeat;
-
-}
-
-.slide {
-  max-height: 200px;
->>>>>>> b1c6be2fb9cdd1e31db5ca5b1648f8b76c9a0ab8
-}
-
-.oscuro {
-  background-color: #343a40;
-  height: 100px;
-  width: 100%;
-}
-
-<<<<<<< HEAD
-.mapa {
-  margin: 0 auto;
-=======
-.row {
-  text-align: center;
-}
-
-.social {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.container2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  height: 50px;
-
-
-}
-
-.tarjetas {
-  margin-left: 0px;
-  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -355,31 +220,6 @@ and (orientation: portrait)
 
 .tarjetas p {
   color: white;
-=======
-.alarcon2 {
-  display: flex;
-  flex-direction: column;
-  background-color: #343a40;
-  height: 50vh;
-  margin-top: 50px;
-  ;
-}
-
-.copy {
-  text-align: center;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.alarcon {
-  display: flex;
-  flex-direction: column;
->>>>>>> b1c6be2fb9cdd1e31db5ca5b1648f8b76c9a0ab8
-}
-
-.bandera {
-  width: 100%;
->>>>>>> 186b5938af292c4566846b16d3ec996802a7a529
 }
 
 .oscuro {
@@ -388,9 +228,6 @@ and (orientation: portrait)
   width: 100%;
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 .full {
   border: black 1px solid;
 }
@@ -406,31 +243,174 @@ and (orientation: portrait)
 div.footer-bottom div.container2 p {
   margin: 0;
 }
-footer{padding: 0px;}
 
 .alarcon {
   display: flex;
-  flex-direction: column;
-  align-content: center;
-  text-align: center;
+  flex-direction: row;
+  justify-content: space-around;
   width: 100%;
 }
 
 .alarcon2 {
   display: flex;
- 
+  flex-direction: row;
   justify-content: space-around;
-  height: 64vh;
+  height: 100px;
   align-items: center;
-  
-
 }
 
 .bandera {
-  width: 100%;
+  width: 200px;
 }
 
-.copy{padding-left: 10px;padding-right: 10px;}
+
+/* #video-carousel-example{margin-top: 150px;;} */
+/* Movil */
+@media only screen and (min-device-width:320px)
+/* Horientacion Vertical */
+
+and (orientation: portrait)
+
+/* FIN */
+  {
+
+  .imagen {
+    width: 80vw
+  }
+
+  .card {
+    display: flex;
+    align-items: center;
+  }
+
+
+
+
+  /* Footer */
+
+
+
+  .carousel-inner img {
+    width: 100%;
+    max-height: 460px;
+    border-radius: 10px;
+    ;
+  }
+
+  .carousel-inner {
+    height: 100%;
+    width: 100%;
+    padding: 5%;
+  }
+
+  .manos {
+    background-image: url(/Img/handshake-3962172_1920.jpg);
+    background-position: center;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }
+
+  .slide {
+    max-height: 200px;
+  }
+
+  .antesfooter {
+    text-align: center;
+  }
+
+  /* Footer */
+  .oscuro {
+    background-color: #343a40;
+    height: 100px;
+    width: 100%;
+  }
+
+  .row {
+    text-align: center;
+  }
+
+  .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+
+
+  }
+
+  .tarjetas {
+    margin-left: 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tarjetas p {
+    color: white;
+  }
+
+  .oscuro {
+    background-color: #343a40;
+    height: 100px;
+    width: 100%;
+  }
+
+  .full {
+    border: black 1px solid;
+  }
+
+  .payments li {
+    margin-left: 10px;
+  }
+
+  .payments li i {
+    color: white;
+  }
+
+  div.footer-bottom div.container2 p {
+    margin: 0;
+  }
+
+  footer {
+    padding: 0px;
+  }
+
+  .alarcon {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .alarcon2 {
+    display: flex;
+
+    justify-content: space-around;
+    height: 64vh;
+    align-items: center;
+
+
+  }
+
+  .bandera {
+    width: 100%;
+  }
+
+  .copy {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 
 
 
@@ -442,29 +422,123 @@ footer{padding: 0px;}
 
 
 
-=======
-.mapa {
-  margin: 0 auto;
+
+
+
+
+
+
+
+
+
 }
 
-.row {
-  text-align: center;
-}
+@media only screen and (min-device-width:768px) and (orientation: portrait) {
+  body {
+    width: 100%;
 
-.social {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
+  }
 
->>>>>>> 186b5938af292c4566846b16d3ec996802a7a529
->>>>>>> b1c6be2fb9cdd1e31db5ca5b1648f8b76c9a0ab8
+  .navbar {
+    width: 100%;
+  }
+
+  /* .container {
+    margin: 0px;
+    text-align: center;
+  } */
+
+  .principal {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    justify-items: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0 auto;
+
+  }
 
 
 
+  .somos {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    margin-right: 20px;
+  }
+
+  .somos2 {
+    width: 40vw;
+    text-align: center;
+  }
+
+  .dire {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .losmismos {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
 
 
 
+    width: 100vw;
+    padding: 0px;
+  }
+
+  .imagen {
+    width: 200px;
+    height: 200px;
+  }
+
+  .card-body {}
+
+  .mismos {
+    height: 75vh;
+    width: 100vw;
+    display: flex;flex-direction: column;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+
+  /* Footer */
+
+  .alarcon {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .alarcon2 {
+    display: flex;
+
+    justify-content: space-around;
+    height: 14vh;
+    align-items: center;
+
+
+  }
+
+
+  .bandera {
+    width: 100%;
+  }
 
 
 

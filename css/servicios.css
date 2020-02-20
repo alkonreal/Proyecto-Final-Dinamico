@@ -439,4 +439,78 @@ and (orientation: landscape) {
 
 
 
+
+}
+
+
+@media only screen and (min-device-width:768px) and (orientation: portrait) {
+
+
+
+
+  .logo {
+    height: 150px;
+    display: none;
+  }
+
+  .logoipad {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    ;
+  }
+
+  .wrapper {
+    height: 300px;
+  }
+
+  .logo {
+    height: 150px;
+  }
+
+
+
+
+
+
+
+  div.footer-bottom div.container2 p {
+    margin: 0;
+  }
+
+ .tarjetas{margin: 0 auto;}
+
+
+  .container2 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+  }
+
+  .payments {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .payments li {
+    margin-left: 10px;
+  }
+
+  div.footer-bottom div.container2 p {
+    margin: 0;
+  }
+
+  .full {
+    border: black 1px solid;
+  }
+  
+  .alarcon2{height: 14vh;
+
+
+
+
+
+  }
+
+
 }
