@@ -220,10 +220,13 @@ i {
   width: 200px;
 }
 
+<<<<<<< HEAD:css/index.css
 .logoipad {
   display: none;
 }
 
+=======
+>>>>>>> 186b5938af292c4566846b16d3ec996802a7a529:css/full-width-pics.css
 header {
   height: 250px;
   margin: 0px;
@@ -249,7 +252,10 @@ header {
 .cajafrase {
   text-align: center;
   margin: 0px;
+<<<<<<< HEAD:css/index.css
 
+=======
+>>>>>>> 186b5938af292c4566846b16d3ec996802a7a529:css/full-width-pics.css
 
 
 }
@@ -259,6 +265,14 @@ header {
   ;
 }
 
+<<<<<<< HEAD:css/index.css
+=======
+.technicum2 {
+  margin-bottom: 40px;
+  ;
+}
+
+>>>>>>> 186b5938af292c4566846b16d3ec996802a7a529:css/full-width-pics.css
 /* Empresa */
 
 .navbar-brand {
@@ -351,12 +365,14 @@ h5 {
   justify-content: center;
   align-items: center;
   height: 50px;
+  
 
 
 }
 
 .tarjetas {
   margin-left: 20px;
+<<<<<<< HEAD:css/index.css
   ;
   display: flex;
   flex-direction: column;
@@ -365,8 +381,11 @@ h5 {
 
 .tarjetas p {
   color: white;
+=======
+  ;display: flex;flex-direction: column;align-items: center;
+>>>>>>> 186b5938af292c4566846b16d3ec996802a7a529:css/full-width-pics.css
 }
-
+.tarjetas p{color: white;}
 .oscuro {
   background-color: #343a40;
   height: 100px;
@@ -380,16 +399,21 @@ h5 {
 .payments li {
   margin-left: 10px;
 }
+<<<<<<< HEAD:css/index.css
 
 .payments li i {
   color: white;
 }
 
+=======
+.payments li i{color: white;}
+>>>>>>> 186b5938af292c4566846b16d3ec996802a7a529:css/full-width-pics.css
 div.footer-bottom div.container2 p {
   margin: 0;
 }
 
 .alarcon {
+<<<<<<< HEAD:css/index.css
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -402,6 +426,13 @@ div.footer-bottom div.container2 p {
   justify-content: space-around;
   height: 100px;
   align-items: center;
+=======
+  display: flex;flex-direction: row;justify-content: space-around;width: 100%;
+}
+
+.alarcon2 {
+  display: flex; flex-direction: row;justify-content: space-around;height: 100px;align-items: center;
+>>>>>>> 186b5938af292c4566846b16d3ec996802a7a529:css/full-width-pics.css
 }
 
 .bandera {
