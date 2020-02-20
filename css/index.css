@@ -169,7 +169,7 @@ i {
 }
 
 .footer-bottom {
-  background: #E3E3E3;
+  background: #343A40;
   border-top: 1px solid #DDDDDD;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -216,8 +216,15 @@ i {
   /* url(../fonts/opensans.woff) format('woff2');*/
 }
 
-.logo{width: 200px;}
-header {height: 250px; margin: 0px;}
+.logo {
+  width: 200px;
+}
+
+header {
+  height: 250px;
+  margin: 0px;
+}
+
 .bg-image-full {
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -225,14 +232,29 @@ header {height: 250px; margin: 0px;}
   background-size: cover;
   -o-background-size: cover;
 }
-.logofrase{width: 300px;}
-.frase { font-family:'acuminBolderpro' ;font-size: 30pt;}
-.cajafrase{ text-align: center;margin: 0px;
+
+.logofrase {
+  width: 300px;
+}
+
+.frase {
+  font-family: 'acuminBolderpro';
+  font-size: 30pt;
+}
+
+.cajafrase {
+  text-align: center;
+  margin: 0px;
 
 
 
 }
-.technicum2{margin-bottom: 40px;;}
+
+.technicum2 {
+  margin-bottom: 40px;
+  ;
+}
+
 /* Empresa */
 
 .navbar-brand {
@@ -311,7 +333,11 @@ h5 {
 
 /* Footer */
 
-.mapa{width: 300px;height: 300px;;}
+.mapa {
+  width: 300px;
+  height: 300px;
+  ;
+}
 
 
 
@@ -321,14 +347,15 @@ h5 {
   justify-content: center;
   align-items: center;
   height: 50px;
+  
 
 }
 
 .tarjetas {
   margin-left: 20px;
-  ;
+  ;display: flex;flex-direction: column;align-items: center;
 }
-
+.tarjetas p{color: white;}
 .oscuro {
   background-color: #343a40;
   height: 100px;
@@ -342,8 +369,21 @@ h5 {
 .payments li {
   margin-left: 10px;
 }
+.payments li i{color: white;}
 div.footer-bottom div.container2 p {
   margin: 0;
+}
+
+.alarcon {
+  display: flex;flex-direction: row;justify-content: space-around;width: 100%;
+}
+
+.alarcon2 {
+  display: flex; flex-direction: row;justify-content: space-around;height: 100px;align-items: center;
+}
+
+.bandera {
+  width: 200px;
 }
 
 /* #video-carousel-example{margin-top: 150px;;} */
@@ -464,8 +504,7 @@ and (orientation: landscape) {
 }
 
 /* Ipad Vertical */
-@media only screen and (min-device-width:768px)
-and (orientation: portrait) {
+@media only screen and (min-device-width:768px) and (orientation: portrait) {
 
   .wrapper {
     height: 300px;
@@ -489,7 +528,9 @@ and (orientation: portrait) {
     ;
   }
 
-.manos{margin-top: 300px;}
+  .manos {
+    margin-top: 300px;
+  }
 
 
 
@@ -497,6 +538,7 @@ and (orientation: portrait) {
   div.footer-bottom div.container2 p {
     margin: 0;
   }
+
   .social {
     display: flex;
     flex-direction: row;

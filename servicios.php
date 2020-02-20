@@ -197,11 +197,39 @@ function printSeries(listSeries){
 </script> -->
 
    <!-- Footer -->
-   <footer class="py-5 bg-dark">
+   <!-- <footer class="py-5 bg-dark">
     <div class="container">
       <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
-    </div>
+    </div> -->
     <!-- /.container -->
+  <!-- </footer> -->
+
+
+  <footer class=" ">
+    <!-- <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Derechos Reservados Emili Darder 2020</p>
+    </div> -->
+    <!-- /.container -->
+
+
+
+    <div class="footer-bottom alarcon2">
+      <div class="container2 alarcon">
+        <img class="bandera" src="./img/EmiliDarder.png" alt="">
+        
+        <div class="tarjetas">
+          <p class=""> Copyright © Footer E-commerce Plugin 2014. All right reserved. </p>
+
+          <ul class="nav nav-pills payments">
+            <li><i class="fa fa-cc-visa"></i></li>
+            <li><i class="fa fa-cc-mastercard"></i></li>
+            <li><i class="fa fa-cc-amex"></i></li>
+            <li><i class="fa fa-cc-paypal"></i></li>
+          </ul>
+        </div>
+        <img class="bandera" src="./img/Alarcon.png" alt="">
+      </div>
+    </div>
   </footer>
 </body>
 
