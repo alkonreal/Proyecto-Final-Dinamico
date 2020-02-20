@@ -220,6 +220,16 @@ i {
   width: 200px;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD:css/index.css
+.logoipad {
+  display: none;
+}
+
+=======
+>>>>>>> 186b5938af292c4566846b16d3ec996802a7a529:css/full-width-pics.css
+>>>>>>> b1c6be2fb9cdd1e31db5ca5b1648f8b76c9a0ab8
 header {
   height: 250px;
   margin: 0px;
@@ -245,6 +255,13 @@ header {
 .cajafrase {
   text-align: center;
   margin: 0px;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD:css/index.css
+
+=======
+>>>>>>> 186b5938af292c4566846b16d3ec996802a7a529:css/full-width-pics.css
+>>>>>>> b1c6be2fb9cdd1e31db5ca5b1648f8b76c9a0ab8
 
 
 }
@@ -254,11 +271,20 @@ header {
   ;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD:css/index.css
+=======
+>>>>>>> b1c6be2fb9cdd1e31db5ca5b1648f8b76c9a0ab8
 .technicum2 {
   margin-bottom: 40px;
   ;
 }
 
+<<<<<<< HEAD
+=======
+>>>>>>> 186b5938af292c4566846b16d3ec996802a7a529:css/full-width-pics.css
+>>>>>>> b1c6be2fb9cdd1e31db5ca5b1648f8b76c9a0ab8
 /* Empresa */
 
 .navbar-brand {
@@ -358,7 +384,22 @@ h5 {
 
 .tarjetas {
   margin-left: 20px;
+<<<<<<< HEAD
   ;display: flex;flex-direction: column;align-items: center;
+=======
+<<<<<<< HEAD:css/index.css
+  ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tarjetas p {
+  color: white;
+=======
+  ;display: flex;flex-direction: column;align-items: center;
+>>>>>>> 186b5938af292c4566846b16d3ec996802a7a529:css/full-width-pics.css
+>>>>>>> b1c6be2fb9cdd1e31db5ca5b1648f8b76c9a0ab8
 }
 .tarjetas p{color: white;}
 .oscuro {
@@ -374,17 +415,50 @@ h5 {
 .payments li {
   margin-left: 10px;
 }
+<<<<<<< HEAD
 .payments li i{color: white;}
+=======
+<<<<<<< HEAD:css/index.css
+
+.payments li i {
+  color: white;
+}
+
+=======
+.payments li i{color: white;}
+>>>>>>> 186b5938af292c4566846b16d3ec996802a7a529:css/full-width-pics.css
+>>>>>>> b1c6be2fb9cdd1e31db5ca5b1648f8b76c9a0ab8
 div.footer-bottom div.container2 p {
   margin: 0;
 }
 
 .alarcon {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD:css/index.css
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.alarcon2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 100px;
+  align-items: center;
+=======
+>>>>>>> b1c6be2fb9cdd1e31db5ca5b1648f8b76c9a0ab8
   display: flex;flex-direction: row;justify-content: space-around;width: 100%;
 }
 
 .alarcon2 {
   display: flex; flex-direction: row;justify-content: space-around;height: 100px;align-items: center;
+<<<<<<< HEAD
+=======
+>>>>>>> 186b5938af292c4566846b16d3ec996802a7a529:css/full-width-pics.css
+>>>>>>> b1c6be2fb9cdd1e31db5ca5b1648f8b76c9a0ab8
 }
 
 .bandera {
