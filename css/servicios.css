@@ -414,3 +414,29 @@ and (orientation: portrait)
 
 
 }
+@media only screen and (min-device-width:768px) and (max-device-width:1024px)
+
+
+and (orientation: landscape) {
+
+
+
+  .col-lg-9 {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    
+
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    /* height: 90vh; */
+  }
+
+
+
+
+}

@@ -245,7 +245,7 @@ and (orientation: portrait)
 /* FIN */
 {
 
-  .imagen{width: 80vw}
+.imagen{width: 80vw}
 .card{display: flex;align-items: center;}
 
 
@@ -253,38 +253,40 @@ and (orientation: portrait)
 
 /* Footer */
 
-.alarcon2 {
-  display: flex;
-  flex-direction: column;
-  background-color: #343a40;
-  height: 50vh;
-  margin-top: 50px;
+
+
+.carousel-inner img {
+  width: 100%;
+  max-height: 460px;
+  border-radius: 10px;
   ;
 }
 
-.copy {
-  text-align: center;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.alarcon {
-  display: flex;
-  flex-direction: column;
-}
-
-.bandera {
+.carousel-inner {
+  height: 100%;
   width: 100%;
+  padding: 5%;
 }
 
+.manos {
+  background-image: url(/Img/handshake-3962172_1920.jpg);
+  background-position: center;
+  height: 150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.slide {
+  max-height: 200px;
+}
+.antesfooter{text-align: center;}
+
+/* Footer */
 .oscuro {
   background-color: #343a40;
   height: 100px;
   width: 100%;
-}
-
-.mapa {
-  margin: 0 auto;
 }
 
 .row {
@@ -296,6 +298,85 @@ and (orientation: portrait)
   flex-direction: row;
   justify-content: center;
 }
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+
+
+}
+
+.tarjetas {
+  margin-left: 0px;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tarjetas p {
+  color: white;
+}
+
+.oscuro {
+  background-color: #343a40;
+  height: 100px;
+  width: 100%;
+}
+
+.full {
+  border: black 1px solid;
+}
+
+.payments li {
+  margin-left: 10px;
+}
+
+.payments li i {
+  color: white;
+}
+
+div.footer-bottom div.container2 p {
+  margin: 0;
+}
+footer{padding: 0px;}
+
+.alarcon {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.alarcon2 {
+  display: flex;
+ 
+  justify-content: space-around;
+  height: 64vh;
+  align-items: center;
+  
+
+}
+
+.bandera {
+  width: 100%;
+}
+
+.copy{padding-left: 10px;padding-right: 10px;}
+
+
+
+
+
+
+
+
+
+
 
 
 

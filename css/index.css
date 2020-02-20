@@ -220,6 +220,10 @@ i {
   width: 200px;
 }
 
+.logoipad {
+  display: none;
+}
+
 header {
   height: 250px;
   margin: 0px;
@@ -234,7 +238,7 @@ header {
 }
 
 .logofrase {
-  width: 400px;
+  width: 300px;
 }
 
 .frase {
@@ -435,64 +439,16 @@ and (orientation: portrait)
 
   }
 
-  .cajafrase {
-    padding: 0px;
-  }
-.cajafrase2{text-align: center;}
-  header {
-    height: 50vh;
-  }
-
-  .logofrase {
-    width:100%;;
-  }
-.alogo{margin: 0 auto}
-  .frase {
-    font-size: 24pt;
-  }
-
   .slide {
     max-height: 200px;
   }
-
-  .antesfooter {
-    text-align: center;
-  }
+  .antesfooter{text-align: center;}
 
   /* Footer */
-
-  .alarcon2 {
-    display: flex;
-    flex-direction: column;
-    background-color: #343a40;
-    height: 50vh;
-    margin-top: 50px;
-    ;
-  }
-
-  .copy {
-    text-align: center;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-
-  .alarcon {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .bandera {
-    width: 100%;
-  }
-
   .oscuro {
     background-color: #343a40;
     height: 100px;
     width: 100%;
-  }
-
-  .mapa {
-    margin: 0 auto;
   }
 
   .row {
@@ -505,7 +461,74 @@ and (orientation: portrait)
     justify-content: center;
   }
 
+  .container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
 
+
+  }
+
+  .tarjetas {
+    margin-left: 0px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tarjetas p {
+    color: white;
+  }
+
+  .oscuro {
+    background-color: #343a40;
+    height: 100px;
+    width: 100%;
+  }
+
+  .full {
+    border: black 1px solid;
+  }
+
+  .payments li {
+    margin-left: 10px;
+  }
+
+  .payments li i {
+    color: white;
+  }
+
+  div.footer-bottom div.container2 p {
+    margin: 0;
+  }
+  footer{padding: 0px;}
+
+  .alarcon {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .alarcon2 {
+    display: flex;
+   
+    justify-content: space-around;
+    height: 70vh;
+    align-items: center;
+    
+
+  }
+
+.bandera {
+    width: 100%;
+  }
+
+.copy{padding-left: 10px;padding-right: 10px;}
 
 }
 
