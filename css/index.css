@@ -169,7 +169,7 @@ i {
 }
 
 .footer-bottom {
-  background: #E3E3E3;
+  background: #343A40;
   border-top: 1px solid #DDDDDD;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -216,8 +216,15 @@ i {
   /* url(../fonts/opensans.woff) format('woff2');*/
 }
 
-.logo{width: 200px;}
-header {height: 250px; margin: 0px;}
+.logo {
+  width: 200px;
+}
+
+header {
+  height: 250px;
+  margin: 0px;
+}
+
 .bg-image-full {
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -225,14 +232,29 @@ header {height: 250px; margin: 0px;}
   background-size: cover;
   -o-background-size: cover;
 }
-.logofrase{width: 300px;}
-.frase { font-family:'acuminBolderpro' ;font-size: 30pt;}
-.cajafrase{ text-align: center;margin: 0px;
+
+.logofrase {
+  width: 400px;
+}
+
+.frase {
+  font-family: 'acuminBolderpro';
+  font-size: 30pt;
+}
+
+.cajafrase {
+  text-align: center;
+  margin: 0px;
 
 
 
 }
-.technicum2{margin-bottom: 40px;;}
+
+.technicum2 {
+  margin-bottom: 40px;
+  ;
+}
+
 /* Empresa */
 
 .navbar-brand {
@@ -311,7 +333,11 @@ h5 {
 
 /* Footer */
 
-.mapa{width: 300px;height: 300px;;}
+.mapa {
+  width: 300px;
+  height: 300px;
+  ;
+}
 
 
 
@@ -322,11 +348,19 @@ h5 {
   align-items: center;
   height: 50px;
 
+
 }
 
 .tarjetas {
   margin-left: 20px;
   ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tarjetas p {
+  color: white;
 }
 
 .oscuro {
@@ -342,8 +376,32 @@ h5 {
 .payments li {
   margin-left: 10px;
 }
+
+.payments li i {
+  color: white;
+}
+
 div.footer-bottom div.container2 p {
   margin: 0;
+}
+
+.alarcon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.alarcon2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 100px;
+  align-items: center;
+}
+
+.bandera {
+  width: 200px;
 }
 
 /* #video-carousel-example{margin-top: 150px;;} */
@@ -377,15 +435,64 @@ and (orientation: portrait)
 
   }
 
+  .cajafrase {
+    padding: 0px;
+  }
+.cajafrase2{text-align: center;}
+  header {
+    height: 50vh;
+  }
+
+  .logofrase {
+    width:100%;;
+  }
+.alogo{margin: 0 auto}
+  .frase {
+    font-size: 24pt;
+  }
+
   .slide {
     max-height: 200px;
   }
 
+  .antesfooter {
+    text-align: center;
+  }
+
   /* Footer */
+
+  .alarcon2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #343a40;
+    height: 50vh;
+    margin-top: 50px;
+    ;
+  }
+
+  .copy {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .alarcon {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bandera {
+    width: 100%;
+  }
+
   .oscuro {
     background-color: #343a40;
     height: 100px;
     width: 100%;
+  }
+
+  .mapa {
+    margin: 0 auto;
   }
 
   .row {
@@ -464,8 +571,7 @@ and (orientation: landscape) {
 }
 
 /* Ipad Vertical */
-@media only screen and (min-device-width:768px)
-and (orientation: portrait) {
+@media only screen and (min-device-width:768px) and (orientation: portrait) {
 
   .wrapper {
     height: 300px;
@@ -489,7 +595,9 @@ and (orientation: portrait) {
     ;
   }
 
-.manos{margin-top: 300px;}
+  .manos {
+    margin-top: 300px;
+  }
 
 
 
@@ -497,6 +605,7 @@ and (orientation: portrait) {
   div.footer-bottom div.container2 p {
     margin: 0;
   }
+
   .social {
     display: flex;
     flex-direction: row;
